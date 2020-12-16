@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "907689080953",
+    "project_id": "crop-prediction-87ce9",
+    "storage_bucket": "crop-prediction-87ce9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907689080953:android:f6e4e3216921a5ce103ca8",
+        "android_client_info": {
+          "package_name": "com.example.crop_prediction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907689080953-o1vpb6v1h9ap7dsuk6dp54v91e37dn3h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.crop_prediction",
+            "certificate_hash": "075b9504d4968f52efb06dcad51cf2a8d16ca93c"
+          }
+        },
+        {
+          "client_id": "907689080953-modrf50b2bb1if8mbuo5hjrjmc8kqr4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhK8LE2CxVEt1ac4KB0vcvt0eo4Lse7Ck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907689080953-modrf50b2bb1if8mbuo5hjrjmc8kqr4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
