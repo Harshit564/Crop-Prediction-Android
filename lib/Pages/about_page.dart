@@ -125,8 +125,8 @@ class _AboutPageState extends State<AboutPage> {
           children: <Widget>[
             _buildContactGridTile(
               contact: "7007108095",
-              email: "harshitsingh15967@gmail.com",
-              imagePath: "assets/logo.png",
+              email: "harshitsingh.be18ele@pec.edu.in",
+              imagePath: "assets/images/harshit.png",
               name: "Harshit Singh",
               position: "Frontend and Backend Developer",
             ),
@@ -136,8 +136,8 @@ class _AboutPageState extends State<AboutPage> {
             ),
             _buildContactGridTile(
               contact: "9814378442",
-              email: "example@gmail.com",
-              imagePath: "assets/logo.png",
+              email: "nikhilaggarwal.be18ele@pec.edu.in",
+              imagePath: "assets/images/nikhil.jpg",
               name: "Nikhil Aggarwal",
               position: "Frontend and Backend Developer",
             ),
@@ -147,8 +147,8 @@ class _AboutPageState extends State<AboutPage> {
             ),
             _buildContactGridTile(
               contact: "9929589316",
-              email: "example@gmail.com",
-              imagePath: "assets/logo.png",
+              email: "monitgalav.be18ele@pec.edu.in",
+              imagePath: "assets/images/monit.jpg",
               name: "Monit Galav",
               position: "Frontend Developer",
             ),
@@ -158,8 +158,8 @@ class _AboutPageState extends State<AboutPage> {
             ),
             _buildContactGridTile(
               contact: "8890638456",
-              email: "example@gmail.com",
-              imagePath: "assets/logo.png",
+              email: "raghavgupta.be18ele@pec.edu.in",
+              imagePath: "assets/images/raghav.jpg",
               name: "Raghav Gupta",
               position: "Frontend Developer",
             ),
@@ -169,8 +169,8 @@ class _AboutPageState extends State<AboutPage> {
             ),
             _buildContactGridTile(
               contact: "8808022864",
-              email: "example@gmail.com",
-              imagePath: "assets/logo.png",
+              email: "shivamupadhyay.be18ele@pec.edu.in",
+              imagePath: "assets/images/shivam.jpeg",
               name: "Shivam Upadhyay",
               position: "Frontend Developer",
             ),

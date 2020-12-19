@@ -1,5 +1,4 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:crop_prediction/Pages/home_page.dart';
 import 'package:crop_prediction/Pages/value_success_page.dart';
 import 'package:crop_prediction/Widgets/buttons.dart';
 import 'package:crop_prediction/Widgets/value_widget.dart';

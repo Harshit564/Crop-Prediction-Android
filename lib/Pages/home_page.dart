@@ -1,5 +1,5 @@
 import 'package:crop_prediction/Pages/about_page.dart';
-import 'package:crop_prediction/Pages/contact_page.dart';
+import 'package:crop_prediction/Pages/fertilizer_page.dart';
 import 'package:crop_prediction/Pages/enter_values_page.dart';
 import 'package:crop_prediction/Pages/imp_page.dart';
 import 'package:crop_prediction/Widgets/card_widget.dart';
@@ -66,46 +66,44 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
       ),
-      body: SingleChildScrollView(
-        child: Container(
-            width: MediaQuery.of(context).size.width,
-            height: MediaQuery.of(context).size.height,
-            child: Padding(
-              padding: const EdgeInsets.only(
-                  top: 50.0, left: 8.0, right: 8.0, bottom: 8.0),
-              child: GridView.count(
-                crossAxisCount: 2,
-                children: <Widget>[
-                  CardTile(
-                      buttonName: 'ENTER VALUES',
-                      imageUrl: 'assets/logo.png',
-                      function: () => {
-                            Navigator.pushNamed(
-                                context, EnterValuePage.routeName)
-                          },
-                      context: context),
-                  CardTile(
-                      buttonName: 'ABOUT',
-                      imageUrl: 'assets/logo.png',
-                      function: () =>
-                          {Navigator.pushNamed(context, AboutPage.routeName)},
-                      context: context),
-                  CardTile(
-                      buttonName: 'CONTACT',
-                      imageUrl: 'assets/logo.png',
-                      function: () => showDialogPopUp("COMING SOON", context)
-                      /*{Navigator.pushNamed(context, ContactPage.routeName)},*/,
-                      context: context),
-                  CardTile(
-                      buttonName: 'IMPORTANT',
-                      imageUrl: 'assets/logo.png',
-                      function: () => showDialogPopUp("COMING SOON", context)
-                      /*{Navigator.pushNamed(context, ImpPage.routeName)}*/,
-                      context: context),
-                ],
-              ),
-            )),
-      ),
+      body: Container(
+          width: MediaQuery.of(context).size.width,
+          height: MediaQuery.of(context).size.height,
+          child: Padding(
+            padding: const EdgeInsets.only(
+                top: 50.0, left: 8.0, right: 8.0, bottom: 8.0),
+            child: GridView.count(
+              crossAxisCount: 2,
+              children: <Widget>[
+                CardTile(
+                    buttonName: 'CROP VALUES',
+                    imageUrl: 'assets/logo.png',
+                    function: () => {
+                          Navigator.pushNamed(context, EnterValuePage.routeName)
+                        },
+                    context: context),
+                CardTile(
+                    buttonName: 'ABOUT',
+                    imageUrl: 'assets/logo.png',
+                    function: () =>
+                        {Navigator.pushNamed(context, AboutPage.routeName)},
+                    context: context),
+                CardTile(
+                    buttonName: 'FERTILIZER VALUES',
+                    imageUrl: 'assets/logo.png',
+                    function: () => {
+                          Navigator.pushNamed(context, FertilizerPage.routeName)
+                        },
+                    context: context),
+                CardTile(
+                    buttonName: 'IMPORTANT',
+                    imageUrl: 'assets/logo.png',
+                    function: () => showDialogPopUp("COMING SOON", context)
+                    /*{Navigator.pushNamed(context, ImpPage.routeName)}*/,
+                    context: context),
+              ],
+            ),
+          )),
     );
   }
 }
